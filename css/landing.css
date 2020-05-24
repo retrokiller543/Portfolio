@@ -150,6 +150,7 @@ header .header-container nav #ham-container .box-3 {
 
 #link-container #links li a:hover {
   color: #b3b3b3;
+  text-decoration: underline;
 }
 
 .slide-in {
@@ -215,8 +216,8 @@ i.text-change {
             transform: translateX(0px);
   }
   to {
-    -webkit-transform: translateX(1100vw);
-            transform: translateX(1100vw);
+    -webkit-transform: translateX(calc(100vw + 1000px));
+            transform: translateX(calc(100vw + 1000px));
   }
 }
 
@@ -226,8 +227,8 @@ i.text-change {
             transform: translateX(0px);
   }
   to {
-    -webkit-transform: translateX(1100vw);
-            transform: translateX(1100vw);
+    -webkit-transform: translateX(calc(100vw + 1000px));
+            transform: translateX(calc(100vw + 1000px));
   }
 }
 

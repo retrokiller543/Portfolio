@@ -94,7 +94,7 @@ header {
         text-decoration: none;
         &:hover {
           color: darken($color: color(primary), $amount: 30%);
-          // transition: all 0.5s ease;
+          text-decoration: underline;
         }
         // transition: all 0.5s ease;
       }
