@@ -13,6 +13,7 @@ body {
 header {
   position: fixed;
   width: 100vw;
+  z-index: 2;
 }
 
 header .header-container {
@@ -115,6 +116,7 @@ header .header-container nav #ham-container .box-3 {
 }
 
 #link-container #links {
+  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,6 +164,15 @@ header .header-container nav #ham-container .box-3 {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   background-color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .header-text {
+    display: none;
+  }
+  .nav-text {
+    display: none;
+  }
 }
 
 main .top-container {
@@ -261,6 +272,12 @@ main .projects .project a:hover {
 main .projects .api {
   background: url("./images/DB.jpg") center no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 1090px) {
+  .projects-container {
+    display: none;
+  }
 }
 
 @-webkit-keyframes fade-out {

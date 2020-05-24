@@ -1,66 +1,67 @@
 header {
   position: fixed;
   width: 100vw;
-  .header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-  margin: 2rem;
   z-index: 2;
-
-  .header-title {
-    @include flexCenter();
-    transition: all 0.1s ease;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 2rem;
     z-index: 2;
-    &:hover {
-      cursor: pointer;
-      color: color(hover);
+
+    .header-title {
+      @include flexCenter();
+      transition: all 0.1s ease;
+      z-index: 2;
+      &:hover {
+        cursor: pointer;
+        color: color(hover);
+        i {
+          border-color: color(hover);
+        }
+      }
+
       i {
-        border-color: color(hover);
+        border: 3px solid black;
+        border-radius: 50%;
+        font-size: 2.5rem;
+        padding: 0.5rem;
+        margin-right: 1rem;
+      }
+
+      .header-text h2,
+      .header-text p {
+        margin: 0;
+        padding: 0;
+      }
+
+      .header-text p {
+        text-transform: uppercase;
       }
     }
 
-    i {
-      border: 3px solid black;
-      border-radius: 50%;
-      font-size: 2.5rem;
-      padding: 0.5rem;
-      margin-right: 1rem;
-    }
+    nav {
+      @include flexCenter();
+      cursor: pointer;
+      z-index: 2;
+      .nav-text {
+        text-transform: uppercase;
+      }
 
-    .header-text h2,
-    .header-text p {
-      margin: 0;
-      padding: 0;
-    }
-
-    .header-text p {
-      text-transform: uppercase;
-    }
-  }
-
-  nav {
-    @include flexCenter();
-    cursor: pointer;
-    z-index: 2;
-    .nav-text {
-      text-transform: uppercase;
-    }
-
-    #ham-container {
-      .box-1,
-      .box-2,
-      .box-3 {
-        background: black;
-        width: 30px;
-        height: 3px;
-        margin-bottom: 5px;
-        margin-left: 1rem;
+      #ham-container {
+        .box-1,
+        .box-2,
+        .box-3 {
+          background: black;
+          width: 30px;
+          height: 3px;
+          margin-bottom: 5px;
+          margin-left: 1rem;
+        }
       }
     }
   }
-}
 }
 
 #link-container {
@@ -77,6 +78,7 @@ header {
   z-index: 1;
 
   #links {
+    padding: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,5 +118,14 @@ header {
       transition: all 0.8s ease;
       background-color: color(primary);
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-text {
+    display: none;
+  }
+  .nav-text {
+    display: none;
   }
 }
