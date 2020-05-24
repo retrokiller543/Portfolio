@@ -1,6 +1,6 @@
 @keyframes slide-in {
   from {
-    transform: translateX(-10000px);
+    transform: translateX(calc(-100vw - 1000px));
   }
   to {
     transform: translateX(0px);
@@ -12,6 +12,6 @@
     transform: translateX(0px);
   }
   to {
-    transform: translateX(10000px);
+    transform: translateX(100vw + 1000px);
   }
 }
