@@ -1,3 +1,5 @@
+/* Made by Emil Schütt 2020-05-25 */
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -178,8 +180,8 @@ i.text-change {
 }
 
 .bar-change {
-  -webkit-transition: all 0.5 ease;
-  transition: all 0.5 ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   background: white;
 }
 
