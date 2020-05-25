@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emil Schütt - Contact</title>
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/contact.css" />
     <link
       rel="stylesheet"
@@ -46,13 +49,20 @@
     </header>
     <main>
       <section class="mail-me">
-          <h1>Contact me if you have a job for me</h1>
-          <form>
-              <input type="email" name="senderEmail" id="sender-email" placeholder="Your Email">
-              <input type="text" placeholder="Subject" name="subject" id="subject">
-              <input type="text" placeholder="Message" name="message" id="message">
-              <button type="submit">Send</button>
-          </form>
+        <h1>Contact me if you have a job for me</h1>
+        <form name="contact" method="post">
+          <label class="name-label">Name</label>
+          <input type="text" name="name" class="name-text" placeholder="John Doe"/>
+          <label class="subject-label">Subject</label>
+          <input type="text" name="subject" class="subject-text" placeholder="Subject"/>
+          <label class="phone-label">Phone Number</label>
+          <input type="text" name="phone" class="phone-text" placeholder="070 000 00 00"/>
+          <label class="message-label">Message</label>
+          <textarea name="message" class="message-text"></textarea>
+
+          <input type="submit" name="send" value="Send Message" class="submit"/>
+        </form>
+        <script src="./js/mail.js"></script>
       </section>
     </main>
   </body>
