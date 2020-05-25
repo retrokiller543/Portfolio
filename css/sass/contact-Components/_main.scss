@@ -2,6 +2,7 @@ main {
     @include flexCenter;
     flex-direction: column;
     @import './form';
+    @import './3dText';
 }
 
 @import './pageTransition'

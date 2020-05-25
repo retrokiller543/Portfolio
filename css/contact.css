@@ -310,7 +310,7 @@ main {
 }
 
 main .mail-me {
-  margin-top: 13rem;
+  margin-top: 2rem;
   width: 70vw;
   min-height: 80vh;
   padding: 3rem;
@@ -366,6 +366,25 @@ main .mail-me form .submit {
 
 main .mail-me form .submit:hover {
   background: #bfbfbf;
+}
+
+main .landing {
+  margin-top: 10rem;
+}
+
+main .landing h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px #bfbfbf 2px 2px #bfbfbf 3px 3px #bfbfbf;
+  -webkit-transition: all 0.24s ease-out;
+  transition: all 0.24s ease-out;
+}
+
+main .landing h1:hover {
+  position: relative;
+  top: -3px;
+  left: -3px;
+  text-shadow: 1px 1px #bfbfbf, 2px 2px #bfbfbf, 3px 3px #bfbfbf, 4px 4px #bfbfbf, 5px 5px #bfbfbf, 6px 6px #bfbfbf;
 }
 
 @-webkit-keyframes pageTransition-Main {
