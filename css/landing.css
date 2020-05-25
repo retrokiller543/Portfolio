@@ -40,7 +40,7 @@ header .header-container {
   z-index: 2;
 }
 
-header .header-container .header-title {
+header .header-container #header-title {
   -webkit-animation: pageTransition-slideFromLeft 0.5s ease;
           animation: pageTransition-slideFromLeft 0.5s ease;
   display: -webkit-box;
@@ -57,16 +57,16 @@ header .header-container .header-title {
   z-index: 2;
 }
 
-header .header-container .header-title:hover {
+header .header-container #header-title:hover {
   cursor: pointer;
   color: #666666;
 }
 
-header .header-container .header-title:hover i {
+header .header-container #header-title:hover i {
   border-color: #666666;
 }
 
-header .header-container .header-title i {
+header .header-container #header-title i {
   border: 3px solid black;
   border-radius: 50%;
   font-size: 2.5rem;
@@ -74,13 +74,13 @@ header .header-container .header-title i {
   margin-right: 1rem;
 }
 
-header .header-container .header-title .header-text h2,
-header .header-container .header-title .header-text p {
+header .header-container #header-title .header-text h2,
+header .header-container #header-title .header-text p {
   margin: 0;
   padding: 0;
 }
 
-header .header-container .header-title .header-text p {
+header .header-container #header-title .header-text p {
   text-transform: uppercase;
 }
 

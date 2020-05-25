@@ -10,7 +10,7 @@ header {
     margin: 2rem;
     z-index: 2;
 
-    .header-title {
+    #header-title {
       animation: pageTransition-slideFromLeft 0.5s ease;
       @include flexCenter();
       transition: all 0.1s ease;

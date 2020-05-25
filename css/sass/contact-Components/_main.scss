@@ -5,4 +5,10 @@ main {
     @import './3dText';
 }
 
+.not-found {
+    margin-top: 20rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
 @import './pageTransition'
