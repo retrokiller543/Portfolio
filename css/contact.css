@@ -1,5 +1,9 @@
+@charset "UTF-8";
 /* Made by Emil Schütt 2020-05-25 */
-
+/* Made by Emil Schütt 2020-05-25 */
+/* Made by Emil Schütt 2020-05-25 */
+/* Made by Emil Schütt 2020-05-25 */
+/* Made by Emil Schütt 2020-05-25 */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -26,6 +30,7 @@ main {
           animation: pageTransition-Main 1s ease;
 }
 
+/* Made by Emil Schütt 2020-05-25 */
 header {
   position: fixed;
   width: 100vw;
@@ -199,6 +204,7 @@ i.text-change {
   }
 }
 
+/* Made by Emil Schütt 2020-05-25 */
 @-webkit-keyframes slide-in {
   from {
     -webkit-transform: translateX(calc(-100vw - 1000px));
@@ -211,7 +217,6 @@ i.text-change {
     opacity: 1;
   }
 }
-
 @keyframes slide-in {
   from {
     -webkit-transform: translateX(calc(-100vw - 1000px));
@@ -295,6 +300,7 @@ i.text-change {
   }
 }
 
+/* Made by Emil Schütt 2020-05-25 */
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,6 +315,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* Made by Emil Schütt 2020-05-25 */
+  /* Made by Emil Schütt 2020-05-25 */
 }
 
 main .mail-me {
@@ -395,6 +403,7 @@ main .landing h1:hover {
   font-size: 4rem;
 }
 
+/* Made by Emil Schütt 2020-05-25 */
 @-webkit-keyframes pageTransition-Main {
   0% {
     -webkit-transform: scaleY(0);
@@ -407,7 +416,6 @@ main .landing h1:hover {
     opacity: 1;
   }
 }
-
 @keyframes pageTransition-Main {
   0% {
     -webkit-transform: scaleY(0);
